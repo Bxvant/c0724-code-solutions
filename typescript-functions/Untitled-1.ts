@@ -22,7 +22,7 @@ function getArea(x: number, y: number): number {
 const getAreaResult: number = getArea(1, 2);
 console.log('value of getarearesult:', getAreaResult);
 
-interface people {
+interface People {
   firstName: string;
   lastName: string;
 }
