@@ -45,9 +45,9 @@ const getLastElement = (array: unknown): unknown => array.at(-1);
 
 console.log('value of getLastElement:', getLastElement(array));
 
-function callOtherFunction(getFirstName: function): string {
-  return getFirstName(person);
+function callOtherFunction(otherFunction: Function, params: unknown): any {
+  return otherFunction(params);
 }
 
-const whatNameResult: string = callOtherFunction(getFirstName);
-console.log('whatNameResult value:', whatNameResult);
+console.log('value of callOtherFunction:', callOtherFunction(greet, 'Brandon'));
+
