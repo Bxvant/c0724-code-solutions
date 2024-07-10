@@ -39,14 +39,11 @@ function getFirstName(person: object): string {
 const getFirstNameResult: string = getFirstName(person);
 console.log('value of getFirstName:', getFirstNameResult);
 
-const array: number[] = [1, 2, 3];
+const array: number[] = [1, 2, 3, 4];
 
-function getLastElement(array): [] {
-  return array.at(-1);
-}
+const getLastElement = (array: unknown): unknown => array.at(-1);
 
-const getLastElementResult: [] = getLastElement(array);
-console.log('value of getLastElement:', getLastElementResult);
+console.log('value of getLastElement:', getLastElement(array));
 
 function callOtherFunction(getFirstName: function): string {
   return getFirstName(person);
