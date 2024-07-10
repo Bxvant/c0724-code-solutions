@@ -2,42 +2,33 @@ function convertMinutesToSeconds(x: number): number {
   return x * 60;
 }
 
-const convertMinutesToSecondsResult: number = convertMinutesToSeconds(10); // 600
+const convertMinutesToSecondsResult: number = convertMinutesToSeconds(10);
 console.log(
-  'value fo convertminutestosecondsresult:',
+  'value of convertMinutesToSecondsResult:',
   convertMinutesToSecondsResult
 );
 
-function greet(x: string): string {
-  return 'Hello' + ' ' + x;
+function greet(name: string): string {
+  return 'Hey' + ' ' + name + '!';
 }
 
-const greetfunction: string = greet('Bryant');
-console.log('value of greetfunction : ', greetfunction);
+const greetResult: string = greet('Bryant');
+console.log('value of greetResult:', greetResult);
 
-function getArea(x: number, y: number): number {
-  return x * y;
-}
+const getArea = (x: number, y: number): number => x * y;
 
-const getAreaResult: number = getArea(1, 2);
-console.log('value of getarearesult:', getAreaResult);
+const getAreaResult: number = getArea(5, 5);
+console.log('value of getAreaResult:', getAreaResult);
 
-interface People {
+interface Person {
   firstName: string;
   lastName: string;
 }
 
-const person: people = {
-  firstName: 'Bryant',
-  lastName: 'Mendoza',
-};
+const getFirstName = (person: Person): string => person.firstName;
 
-function getFirstName(person: object): string {
-  return person.firstName;
-}
-
-const getFirstNameResult: string = getFirstName(person);
-console.log('value of getFirstName:', getFirstNameResult);
+const human: Person = { firstName: 'Bryant', lastName: 'Mendoza' };
+console.log('value of human:', getFirstName(human));
 
 const array: number[] = [1, 2, 3, 4];
 
@@ -50,4 +41,3 @@ function callOtherFunction(otherFunction: Function, params: unknown): any {
 }
 
 console.log('value of callOtherFunction:', callOtherFunction(greet, 'Brandon'));
-
