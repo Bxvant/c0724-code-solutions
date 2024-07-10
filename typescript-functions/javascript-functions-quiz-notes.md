@@ -5,22 +5,23 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What is a function in JavaScript?
-a function in javascript is a block of code used to perform a specific task
+  a function is a block of code designed to perform a specific task.
 - Describe the parts of a function **definition**.
-a function is made by first initializing the function by giving it a name and then following with its parameters, followed by its opening curly brace which hold the return statement, ( if it had one), followed by its closing curly brace
+  the function keyword, the optional function name, the parameters encased in parethesis followed by the curly braces which incase the optional return statement
 - Describe the parts of a function **call**.
-first is the function name, followed by the paranthesis which invokes the function, the parenthesis will hold the arguments or parameters and then youll get the return or the output
+  the function is first called by using its name, and then invoked by applying the parenthesis with its arguments inside.
 - When comparing them side-by-side, what are the differences between a function **call** and a function **definition**?
-the function defenition is simply making the function, it doesnt actually do anything, the function call is when you are actually running the function code
+  a function call does not use the function keyword and instead of placeholders as parameters it uses actual values or arguments
 - What is the difference between a **parameter** and an **argument**?
-a paramter is what goes inside the parenthesis, the argument is the actual value of what is going in.
+  a parameter is a placeholder, an argument has an actual value
 - Why are function **parameters** useful?
-flexibility and re-usability
+  because they allow for flexibility and reusability
 - What two effects does a `return` statement have on the behavior of a function?
-one is returning the value of the function and the other is terminating the function execution
+  it will return the function action, it also serves to execute the function from running
 - What is the syntax for defining an arrow function?
-=>
+  the => and the intentional missing function keyword
 - When an arrow function's body is not surrounded in curly braces (_concise body syntax_), what changes in its functionality?
+  it is treated as a return statement
 
 ## Notes
 
