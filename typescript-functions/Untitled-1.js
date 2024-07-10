@@ -32,8 +32,10 @@ function getLastElement(array) {
 }
 const getLastElementResult = getLastElement(array);
 console.log('value of getLastElement:', getLastElementResult);
-function callOtherFunction(getFirstName) {
-  return getFirstName(person);
+
+function callOtherFunction(otherFunction: Function, params: unknown): any {
+  return otherFunction(params);
 }
-const whatNameResult = callOtherFunction(getFirstName);
-console.log('whatNameResult value:', whatNameResult);
+
+console.log('value of callOtherFunction:', callOtherFunction(greet, 'Brandon'));
+
