@@ -2,40 +2,26 @@
 function convertMinutesToSeconds(x) {
   return x * 60;
 }
-const convertMinutesToSecondsResult = convertMinutesToSeconds(10); // 600
+const convertMinutesToSecondsResult = convertMinutesToSeconds(10);
 console.log(
-  'value fo convertminutestosecondsresult:',
+  'value of convertMinutesToSecondsResult:',
   convertMinutesToSecondsResult
 );
-function greet(x) {
-  return 'Hello' + ' ' + x;
+function greet(name) {
+  return 'Hey' + ' ' + name + '!';
 }
-const greetfunction = greet('Bryant');
-console.log('value of greetfunction : ', greetfunction);
-function getArea(x, y) {
-  return x * y;
-}
-const getAreaResult = getArea(1, 2);
-console.log('value of getarearesult:', getAreaResult);
-const person = {
-  firstName: 'Bryant',
-  lastName: 'Mendoza',
-};
-function getFirstName(person) {
-  return person.firstName;
-}
-const getFirstNameResult = getFirstName(person);
-console.log('value of getFirstName:', getFirstNameResult);
-const array = [1, 2, 3];
-function getLastElement(array) {
-  return array.at(-1);
-}
-const getLastElementResult = getLastElement(array);
-console.log('value of getLastElement:', getLastElementResult);
-
-function callOtherFunction(otherFunction: Function, params: unknown): any {
+const greetResult = greet('Bryant');
+console.log('value of greetResult:', greetResult);
+const getArea = (x, y) => x * y;
+const getAreaResult = getArea(5, 5);
+console.log('value of getAreaResult:', getAreaResult);
+const getFirstName = (person) => person.firstName;
+const human = { firstName: 'Bryant', lastName: 'Mendoza' };
+console.log('value of human:', getFirstName(human));
+const array = [1, 2, 3, 4];
+const getLastElement = (array) => array.at(-1);
+console.log('value of getLastElement:', getLastElement(array));
+function callOtherFunction(otherFunction, params) {
   return otherFunction(params);
 }
-
 console.log('value of callOtherFunction:', callOtherFunction(greet, 'Brandon'));
-
