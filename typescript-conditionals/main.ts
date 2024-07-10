@@ -20,7 +20,7 @@ const isUnderFiveResult: boolean = isUnderFive(3);
 console.log('value of isUnderFiveResult:', isUnderFiveResult);
 
 function isEvenNumber(x: number): boolean {
-  if (x % 2) {
+  if (x % 2 === 0) {
     return true;
   } else {
     return false;
@@ -73,7 +73,7 @@ function isOldEnoughToDrinkAndDrive(person: {
   name: string;
   age: number;
 }): boolean {
-  if (person.age >= 21) {
+  if (person.age >= 21 && person.age >= 16) {
     return false;
   } else {
     return false;
@@ -105,13 +105,13 @@ console.log('value of categorizeAcidityResult:', categorizeAcidityResult);
 function introduceWarnerBro(name: string): string {
   switch (name) {
     case 'yakko':
-      return 'hello';
+      return 'Were the warner brothers!';
     case 'wakko':
-      return 'hello';
+      return 'Were the warner brothers!';
     case 'dot':
-      return 'hello';
+      return 'Im cute~';
     default:
-      return 'BYE';
+      return 'Goodnight Everybody';
   }
 }
 const introduceWarnerBroResult: string = introduceWarnerBro('yakko');
