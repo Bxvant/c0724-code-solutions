@@ -80,7 +80,7 @@ const getKeysExample = { a: 1, b: 2, c: 3 };
 const getKeysResult: string[] = getKeys(getKeysExample);
 console.log('value of getKeysresult:', getKeysResult);
 
-function getValues(obj: Record<string, any>): any[] {
+function getValues(obj: Record<string, unknown>): unknown[] {
   const values: string[] = [];
   for (const key in obj) {
     values.push(obj[key]);
