@@ -5,7 +5,7 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - Where do you put non-visible content about the HTML document?
-  you can comment them out
+  in the <head> element 
 - Where do you put visible content about the HTML document?
   in the body tag
 - Where do the `<head>` and `<body>` tags go in a valid HTML document?
