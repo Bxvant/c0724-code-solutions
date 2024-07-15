@@ -5,8 +5,9 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What is the difference between an ordered list and an unordered list in HTML?
-
+  an ordered lists is numbered
 - Is an HTML list a block element or an inline element?
+  it is a block element
 
 ## Notes
 
