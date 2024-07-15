@@ -7,3 +7,5 @@ function reverseWord(word: string): string {
   }
   return reversedChar;
 }
+
+// done

@@ -6,3 +6,5 @@ function getWords(string: string): string[] {
   }
   return string.split(/\s+/);
 }
+
+// done
