@@ -5,7 +5,7 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What HTML tag is used to link to another website?
-  the <a followed by the href attribute>
+  the <a> tag followed by the href attribute
 - What is an absolute URL?
   Absolute URLs specify the complete address of the linked resource, including the protocol
 - What is a relative URL?
