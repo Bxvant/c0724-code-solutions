@@ -9,13 +9,13 @@ Answer the following questions in the provided markdown file before turning in t
 - Where do you put visible content about the HTML document?
   in the body tag
 - Where do the `<head>` and `<body>` tags go in a valid HTML document?
-  the head tag follows after the html element and the body tag follows after
+  the head tag follows after the html element and the body tag follows after the head element, both within the html element
 - What is the purpose of a `<!DOCTYPE>` declaration?
   it declares the type of document and html version
 - Give five examples of HTML element types.
   head,body,html,title,h1
 - What is the purpose of HTML attributes?
-  they allow us to perform more action like inputting an image
+- they are used to adjust the behavior or display of the html element.
 - Give an example of an HTML entity (escape character).
   '&amp;'
 
