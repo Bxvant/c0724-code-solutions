@@ -11,7 +11,7 @@ Answer the following questions in the provided markdown file before turning in t
 - In CSS, how do you select elements by their tag name?
   by putting just its name
 - In CSS, how do you select an element by its `id` attribute?
-  byt putting a # in front of the id name
+  by putting a # in front of the id name
 
 ## Notes
 
