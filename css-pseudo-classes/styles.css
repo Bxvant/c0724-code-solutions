@@ -11,11 +11,16 @@
   cursor: pointer;
 }
 
-tr:nth-child(even) {
+thead > tr {
+  color: white;
+  background-color: blue;
+}
+
+tbody > tr:nth-child(even) {
   background-color: red;
 }
 
-tr:nth-child(odd) {
+tbody > tr:nth-child(odd) {
   background-color: black;
 }
 
