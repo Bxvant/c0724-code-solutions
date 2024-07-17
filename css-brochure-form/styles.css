@@ -1,17 +1,9 @@
+.text {
+  width: 400px;
+}
+
 #engineers {
   margin-bottom: 15px;
-  width: 400px;
-}
-
-#where {
-  width: 400px;
-}
-
-#name {
-  width: 400px;
-}
-
-#email {
   width: 400px;
 }
 
@@ -19,12 +11,15 @@ button {
   color: white;
   background-color: #ec5c57;
   border-color: #ec5c57;
-  width: 100px;
-  border-radius: 10px;
+  width: 90px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
   position: relative;
   left: 300px;
   font-size: 15px;
-  padding: 10px;
+  padding: 3px;
 }
 
 h2 {
@@ -61,6 +56,7 @@ select {
 
 label {
   margin-bottom: 5px;
+  font-size: 12px;
 }
 
 * {
