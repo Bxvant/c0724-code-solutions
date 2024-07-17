@@ -1,0 +1,29 @@
+#potato {
+  color: black;
+  border-color: white;
+  background-color: white;
+  font-size: 20px;
+  padding: 60px;
+}
+
+#potato:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+thead > tr {
+  color: white;
+  background-color: blue;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: red;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: black;
+}
+
+table {
+  color: white;
+}
