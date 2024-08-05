@@ -2,11 +2,10 @@
 const $countdownDisplay = document.getElementById('countdown-display');
 if (!$countdownDisplay) throw new Error('$countdownDisplay query has failed');
 let count = 4;
-$countdownDisplay.textContent = count.toString();
 const setIntervalId = setInterval(() => {
   count--;
   if (count > 0) {
-    $countdownDisplay.textContent = count;
+    $countdownDisplay.textContent = count.toString();
   } else {
     $countdownDisplay.textContent = '~Earth Beeeelooowww Us~';
     clearInterval(setIntervalId);
