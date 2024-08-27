@@ -5,7 +5,7 @@
 Answer the following questions in the provided markdown file before turning in this exercise:
 
 - What are props in React?
-  props is short for properties
+  props is short for properties, a prop is used to pass data from one component to another.
 - How do you declare and access props in a component?
   in order to declare a prop you need a type prop and then update your function to include your type prop, to access them you can pass them into your component
 - How do you pass props to a component?
