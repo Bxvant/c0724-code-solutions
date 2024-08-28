@@ -7,12 +7,13 @@ Answer the following questions in the provided markdown file before turning in t
 - When would we want to dynamically create a list of React components?
 
 - Why is it important for React components to be data-driven?
-
+  so that data isnt lost from local variables on re renders
 - What `Array` method is commonly used to create a list of React components?
-
+  .map() method
 - Why do components in a list need to have unique keys?
-
+  so that react can keep track of the item that is being identified
 - What is the best value to use as a "key" prop when rendering lists?
+  a number
 
 ## Notes
 
