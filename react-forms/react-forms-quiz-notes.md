@@ -11,7 +11,7 @@ Answer the following questions in the provided markdown file before turning in t
 - What are some advantages of using controlled components?
   the ability to save data in react, easier to implement validation, grater control over input values, so you can enforce constraints easily.
 - Which style do you prefer?
-  i prefer uncontrolled
+  i prefer controlled
 - What two props must you pass to an input for it to be "controlled"?
   value and onChange
 - What are some popular npm packages for creating forms in React?
