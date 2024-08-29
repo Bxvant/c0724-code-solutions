@@ -1,0 +1,23 @@
+#switch-toggle {
+  background-color: white;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+}
+
+#switch-toggle.on {
+  background-color: lightgreen;
+  justify-content: flex-end;
+}
+
+#switch-background {
+  background-color: lightgray;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#switch-outer.on {
+  justify-content: flex-end;
+}
