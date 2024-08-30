@@ -1,5 +1,5 @@
-import './App.css';
 import { RotatingBanner } from './RotatingBanner';
+import './App.css';
 
 const items = [
   'Aardvark',
@@ -10,8 +10,6 @@ const items = [
   'Ferret',
 ];
 
-function App() {
+export default function App() {
   return <RotatingBanner items={items} />;
 }
-
-export default App;

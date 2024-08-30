@@ -1,3 +1,7 @@
-export function PrevButton() {
-  return <button>Previous</button>;
+type Props = {
+  onPrevBtnClick: () => void;
+};
+
+export function PrevButton({ onPrevBtnClick }: Props) {
+  return <button onClick={onPrevBtnClick}>Previous</button>;
 }
