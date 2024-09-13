@@ -1,0 +1,500 @@
+   53  git switch typescript-local-storage
+   54  git switch main
+   55  cd/ workspaces
+   56  git pull
+   57  git status
+   58  cd/ workspaces
+   59  cd/ ..
+   60  cd ..
+   61  git clone <git@github.com:Bxvant/code-journal.git>
+   62  cd code-journal
+   63  npm install 
+   64  git clone<git@github.com:Bxvant/code-journal.git>
+   65  git clone <git@github.com:Bxvant/code-journal.git>
+   66  cd ..
+   67  cd ..
+   68  cd/workspaces
+   69  cd ..
+   70  git clone <git@github.com:Bxvant/code-journal.git>
+   71  <git@github.com:Bxvant/code-journal.git>
+   72  git clone git@github.com:Bxvant/code-journal.git
+   73  cd code-journal
+   74  npm install
+   75  code .
+   76  git switch css-canvas-medical
+   77  tsc npx
+   78  npx tsc --watch
+   79  git status
+   80  git add code-journal
+   81  git status
+   82  git add css/layout.css
+   83  git add index.html
+   84  git add ts/main.ts
+   85  git add css/styles.css
+   86  git status
+   87  git add js/
+   88  git add
+   89  git status
+   90  git commit -m " added rest of html, css, and event listener for the URL input " 
+   91  --no-ignore
+   92  git status
+   93  git add ts/main.js
+   94  git add ts/main.ts
+   95  git add js/main.js
+   96  git status
+   97  git commit -m " completed HTML / CSS and event listener for the URL input "
+   98  git branch code-journal-create-entry
+   99  git switch code-journal-create-entry
+  100  git status
+  101  git status
+  102  git status
+  103  git status
+  104  git add
+  105  npx tsc
+  106  npx tsc --watch
+  107  npx tsc --watch
+  108  git status
+  109  git add code-journal-create-entry
+  110  git add js/data.js
+  111  git add ts/data/ts
+  112  git add ts/data.ts
+  113  git add js.main.js
+  114  git add js/main.js
+  115  git add ts/main.ts
+  116  git status
+  117  git add index.html
+  118  git add css/styles.css
+  119  git status
+  120  git commit -m " completed first feature "
+  121  git push origin code-journal-create-entry
+  122  npx tsc --watch
+  123  git status
+  124  git add --all
+  125  git status
+  126  git commit -m "updated code-journal-create-entry"
+  127  git push origin code-journal-create-entry
+  128  git status
+  129  git add -all
+  130  git add --all
+  131  git status
+  132  git commit -m " updated image container " 
+  133  git push origin code-journal-create-entry
+  134  git switch main
+  135  git pull origin
+  136  git switch code-journal-create-entry
+  137  git stash
+  138  git pull origin 
+  139  git branch code-journal-view-entry
+  140  git switch code-journal-view-entry
+  141  git status
+  142  git status
+  143  git status
+  144  git stash
+  145  git status
+  146  git switch main
+  147  git pull origin main
+  148  git switch code-journal-view-entry
+  149  git status
+  150  git status
+  151  git branch --list
+  152  git switch main
+  153  git branch --list
+  154  cd ..
+  155  git clone git@github.com:TristanChao/week-planner.git
+  156  cd /week-planner
+  157  cd week-planner
+  158  npm install
+  159  code .
+  160  git status
+  161  git add -all
+  162  git add --all
+  163  git status
+  164  git commit -m " tag youre it "
+  165  git push origin week-planner
+  166  git push origin main
+  167  git pull origin main
+  168  git status
+  169  git add -all
+  170  git add --all
+  171  git commit -m " tristan is not original "
+  172  git push origin main
+  173  git pull origin main
+  174  git pull origin main
+  175  git status
+  176  git add --all
+  177  git commit -m " im hungry "
+  178  git push origin main
+  179  git status
+  180  git pull origin main
+  181  tsc npx
+  182  npx tsc
+  183  git status
+  184  git add --all
+  185  git commit -m " children not childnodes "
+  186  git push origin main
+  187  git pull origin main
+  188  git status
+  189  git add --all
+  190  git commit -m ' i finally figured out the delete button '
+  191  git push origin main
+  192  git status
+  193  git add -all
+  194  git add --all
+  195  git status
+  196  git commit -m " i do the cooking "
+  197  git push origin main
+  198  git pull origin main
+  199  npx tsc
+  200  git status
+  201  git add --all
+  202  git commit -m "tristan is responsible for the ts "
+  203  git push origin main
+  204  git status
+  205  git pull origin main
+  206  npx tsc
+  207  git status
+  208  git add --all
+  209  git commit -m 'our edit button makes new entires "
+  210  git commit -m "our edit button makes new entries @tristan "
+  211  git push origin main
+  212  git pull origin main
+  213  git stash
+  214  git pull origin main
+  215  git stash
+  216  git status
+  217  git pull origin main
+  218  npx tsc
+  219  npx tsc --watch
+  220  git status
+  221  git switch main
+  222  git status
+  223  git pull main origin
+  224  git pull main 
+  225  git pull origin
+  226  git branch practice-interview-challenege
+  227  git switch practice-interview-challenege
+  228  npx tsc
+  229  tsx npx
+  230  git switch main
+  231  git branch -list
+  232  git branch --list
+  233  git branch -D practive-interview-challenge
+  234  git branch -D practice interview-challenge
+  235  git branch -D practice-interview-challenge
+  236  git branch --list
+  237  git branch -D practice-interview-challenege
+  238  git branch practice-interview-problem
+  239  git switch practive-interview-problem
+  240  git switch practice-interview-problem
+  241  git status
+  242  npx tsc
+  243  git stash
+  244  npx tsc
+  245  npx tsc --watch
+  246  cd practice-interview-problem
+  247  cd practice-interview-problem
+  248  cd practice-interview-challenge
+  249  git status
+  250  npx tsc --watch
+  251  git status
+  252  git add practice-interview-challenge
+  253  git status
+  254  git commit -m " completed practice-interview-problem "
+  255  git push practice-interview-problem
+  256  git push practice-interview-challenge
+  257  cd practice-interview-problem
+  258  cd practice-interview-challenge
+  259  cd ..
+  260  git status
+  261  git push origin practice-interview-problem
+  262  git branch -M practice-interview-challenge
+  263  git push origin practice-interview-challenge
+  264  git switch main
+  265  git branch typescirpt-timers
+  266  git switch typescript-timers
+  267  git switch typescript-timers
+  268  git branch -D typescirpt-timers
+  269  git branch typescript-timers
+  270  git switch typescript-timers
+  271  git status
+  272  git status
+  273  npx tsc --watch
+  274  cd typescript-timers
+  275  npx tsc watch
+  276  npx tsc --watch
+  277  git status
+  278  git add typescript-timers
+  279  git status
+  280  git commit -m " completed typescript-timers "
+  281  git push origin typescript-timers
+  282  git status
+  283  git add typescript-timers
+  284  git status
+  285  git commit - " updated typescript-timers "
+  286  git commit -m " updated typescript-timers "
+  287  git push origin typescript-timers
+  288  git status
+  289  git add typescript-timers
+  290  git status
+  291  git status
+  292  git add typescript-timers
+  293  git commit -m " updated quiz answers "
+  294  git push origin typescript-timers
+  295  git switch main
+  296  git branch typescript-carousel
+  297  git switch typescript-carousel 
+  298  cd typescript-carousel
+  299  npx tsc --watch
+  300  git switch main
+  301  git switch typescript-carousel
+  302  git switch main
+  303  git status
+  304  git branch typescript-destructuring 
+  305  git status
+  306  git switch typescript destructuring
+  307  git switch typescript-destructuring
+  308  cd typescript-destructuring
+  309  npx tsc --watch
+  310  git status
+  311  git add typescript-deconstructing
+  312  git add typescript-deconstructing
+  313  git branch -M typescript-deconstructing
+  314  git status
+  315  git add typescript-deconstructing
+  316  git status
+  317  git status
+  318  git add typescript-deconstructing
+  319  git add typescript-deconstructing
+  320  git status
+  321  git branch -M typescript-destructuring
+  322  git status
+  323  git add typescript-destructuring
+  324  git status
+  325  git commit -m " completed typescript-destructuring "
+  326  git push origin typescript-destructuring
+  327  git switch main
+  328  git switch array-manipulation-1
+  329  cd array-manipulation-1
+  330  npx tsc --watch
+  331  npx tsc
+  332  cd array-manipulation-1/src
+  333  npx tsc --watch
+  334  git status
+  335  git add array-manipulation-1
+  336  git status
+  337  git commit -m " REDID COMPACT.TS " 
+  338  git push origin array-manipulation-1
+  339  git pull
+  340  git switch main
+  341  git pull origin main
+  342  git switch array-manipulation-1
+  343  git status
+  344  git push origin array-manipulation-1
+  345  git pull array-manipulation-1
+  346  git pull origin array-manipulation-1
+  347  git status
+  348  git switch main
+  349  git status
+  350  git branch typescript-operators
+  351  git status
+  352  git switch typescript-operators
+  353  cd typescript-operators
+  354  npx tsc --watch
+  355  cd typescript-operators
+  356  npx tsc --watch
+  357  git status
+  358  git add typescript-operators
+  359  git status
+  360  git commit -m " completed typescript-operators "
+  361  git status
+  362  git add typescript-operators
+  363  git status
+  364  git commit -m " updated quiz questions "
+  365  git push origin typescript-operators
+  366  git switch main
+  367  git branch array-methods
+  368  git siwtch array-methods
+  369  git switch array-methods
+  370  cd array-methods
+  371  npx tsc --watch
+  372  git status
+  373  git add array-methods
+  374  git status
+  375  git commit -m " compelted array-methods "
+  376  git status
+  377  git add array-methods
+  378  git status
+  379  git commit -m " completed array-methods "
+  380  git push origin array-methods
+  381  git status
+  382  git switch main
+  383  git status
+  384  git branch command-line-basics
+  385  git switch command-line-basics
+  386  git status
+  387  cd command-line-basics
+  388  man man
+  389  git switch main
+  390  git ..
+  391  ..
+  392  cd ..
+  393  git status
+  394  git branch npm-intro
+  395  git switch npm-intro
+  396  cs npm-intro
+  397  cd npm-intro
+  398  cd npm-intro
+  399  cp .npm-init.js ~/.npm-init.js
+  400  cd path/to/npm-intro
+  401  npm innit -y
+  402  npm innit -y
+  403  npm install jquery
+  404  npm install jest
+  405  npm install eslint --save-dev
+  406  npm run Hello
+  407  cd ..
+  408  git status
+  409  git status
+  410  git add npm-intro
+  411  git status
+  412  git commit -m " completed npm-intro exercise "
+  413  git push origin npm-intro
+  414  git switch main
+  415  git branch typescript-promises
+  416  git switch typescript-promises
+  417  git status
+  418  cd typescript-promises
+  419  tsx --version
+  420  npx tsc --watch
+  421  node index.js
+  422  cd typescript-promises
+  423  node index.js
+  424  npx tsc
+  425  tsx main.ts
+  426  tsx main.ts
+  427  cd ..
+  428  git status
+  429  git add typescript-promises
+  430  git status
+  431  git commit -m " completed typescript-promises "
+  432  git push origin typescript-promises
+  433  git status
+  434  git switch main
+  435  git branch typescript-async-await
+  436  switch typescript-async-await
+  437  git switch typescript-async-await
+  438  git status
+  439  tsx --version
+  440  git switch main
+  441  git branch fetch
+  442  git status
+  443  git switch fetch
+  444  cd fetch
+  445  npx tsc --watch
+  446  http "https://v3.football.api-sports.io/leagues
+  447  cd
+  448  http https://api.football-data.org/v4/teams
+  449  http https://api.jikan.moe/v4/anime/{id}/full
+  450  git switch fetch
+  451  git status
+  452  http https://api-football-v1.p.rapidapi.com/v3/leagues
+  453  get("https://v3.football.api-sports.io/status");
+  454  http https://api-football-v1.p.rapidapi.com/v3/leagues/0ecd26452bmshf7cda8d2bdf7abbp1d2ebdjsn21227f99d620
+  455  http https://v3.football.api-sports.io/leagues
+  456  https://v3.football.api-sports.io/leagues
+  457  http https://v3.football.api-sports.io/leagues
+  458  http https://v3.football.api-sports.io/leagues?x-rapidapi-key=0ecd26452bmshf7cda8d2bdf7abbp1d2ebdjsn21227f99d620
+  459  clear
+  460  npx tsc
+  461  cd fetch
+  462  npx tsc
+  463  curl -H "x-apisports-key: 0ecd26452bmshf7cda8d2bdf7abbp1d2ebdjsn21227f99d620" "https://v3.football.api-sports.io/leagues"
+  464  clear
+  465  curl -H "x-apisports-key: 0ecd26452bmshf7cda8d2bdf7abbp1d2ebdjsn21227f99d620" "https://v3.football.api-sports.io/countries"
+  466  http https://api.football-data.org/v4/matches
+  467  http https://api.football-data.org/v4/teams/86/matches?status=SCHEDULED
+  468  http 64305c0bf3d04d72adf34abfcabba72f
+  469  http https://api.football-data.org/v4/persons/2019/matches?status=FINISHED
+  470  http https://api.football-data.org/v4/teams/86/matches?status=SCHEDULED
+  471  http https://api.football-data.org/v4/teams
+  472  http curl -X 'GET'   'https://api.openligadb.de/getavailableleagues'   -H 'accept: text/json'
+  473  curl -X 'GET'   'https://api.openligadb.de/getavailableleagues'   -H 'accept: text/json'
+  474  http https://api.openligadb.de/getavailableleagues
+  475   GET https://api.football-data.org/v4/matches
+  476  http  GET https://api.football-data.org/v4/matches
+  477  http https://api.football-data.org/v4/matches
+  478  curl -H "X-Auth-Token: 64305c0bf3d04d72adf34abfcabba72f
+  479  " "https://api.football-data.org/v4/competitions"
+  480  http 64305c0bf3d04d72adf34abfcabba72f
+  481   https://api.football-data.org/v4/teams
+  482  curl -XGET 'https://api.football-data.org/v4/matches/' -H "X-Auth-Token: 64305c0bf3d04d72adf34abfcabba72f"
+  483  npx tsc --watch
+  484  git switch main
+  485  git stash
+  486  git switch main
+  487  git status
+  488  git status
+  489  git branch react-intro
+  490  git switch react-intro
+  491  git status
+  492  cd react-intro
+  493  git status
+  494  node -v
+  495  npm create vite@latest my-app -- --template react-ts
+  496  npm create vite@latest my-app -- --template react-ts
+  497  cd my-app
+  498  npm install
+  499  npm run dev
+  500  git status
+  501  git add typescript-modules
+  502  git status
+  503  git commit -m " completed typescript-modules "
+  504  git push origin typescript-modules
+  505  git switch main
+  506  git status
+  507  git switch command-line-basics
+  508  git status
+  509  cd command-line-basics
+  510  man cat
+  511  cat laziness.txt
+  512  cat impatience.txt
+  513  cat hubris.txt
+  514  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  515  cat three-virtues.txt
+  516  man ls
+  517  pwd
+  518  pwd > i-was-here.txt
+  519  man ls
+  520  ls -a
+  521  cat i-was-here.txt
+  522  man echo
+  523  echo 'Hello , World!'
+  524  echo 'Hello , World!' > hello.txt
+  525  ls -a
+  526  cat hello.txt
+  527  man touch
+  528  touch tag-youre-it.txt
+  529  cd snoot
+  530  touch boop.txt
+  531  ls -a
+  532  cd ..
+  533  man mv
+  534  mv pokimans pokemon
+  535  mv pokiemans pokemon
+  536  ls -a
+  537  ls
+  538  man rm
+  539  rm loltxt
+  540  rm lol.txt
+  541  ls
+  542  rm -r kill-me/
+  543  ls
+  544  man cp
+  545  cp and-then.txt no-and-then.txt
+  546  ls
+  547  cat no-and-then.txt
+  548  and-then.txt
+  549  cat and-then.txt
+  550  man history
+  551  history
+  552  history > command-history.txt
