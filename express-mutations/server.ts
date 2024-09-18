@@ -83,7 +83,7 @@ app.delete('/api/actors/:actorId', async (req, res, next) => {
     const result = await db.query(sql, params);
     const actor = result.rows[0];
     if (!actor) {
-      throw new ClientError(204, ` actor ${actorId} does not exist`);
+      throw new ClientError(404, ` actor ${actorId} does not exist`);
     }
     res.sendStatus(204);
   } catch (err) {
