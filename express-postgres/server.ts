@@ -18,7 +18,7 @@ app.get('/api/films', async (req, res, next) => {
     select "title",
            "fimId",
     from "films"
-    order by "replacementCost desc;
+    order by "replacementCost" desc;
     `;
     const result = await db.query(sql);
     res.send(result.rows);
@@ -36,7 +36,7 @@ app.get('/api/films', async (req, res, next) => {
     const sql = `
     select *
     from "films"
-    where "filmId = $1`;
+    where "filmId" = $1`;
     const params = [filmId];
     const result = await db.query(sql, params);
     const film = result.rows[0];
