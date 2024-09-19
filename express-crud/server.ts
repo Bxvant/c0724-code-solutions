@@ -20,13 +20,13 @@ app.get('/api/grades', async (req, res, next) => {
     from "grades";
     `;
     const result = await db.query(sql);
-    res.json(result.rows[0]);
+    res.json(result.rows);
   } catch (err) {
     next(err);
   }
 });
 
-app.post('/api/grades/:gradeId', async (req, res, next) => {
+app.get('/api/grades/:gradeId', async (req, res, next) => {
   try {
     const { gradeId } = req.params;
     if (!Number.isInteger(+gradeId)) {
@@ -54,7 +54,10 @@ app.post('/api/grades', async (req, res, next) => {
     if (name === undefined || course === undefined || score === undefined) {
       throw new ClientError(400, 'Name, Course, and Score are required');
     }
-    if (score < 0 || score > 100 || !Number.isInteger(score)) {
+    if (!Number.isInteger(score)) {
+      throw new ClientError(400, 'Score must be an integer');
+    }
+    if (score < 0 || score > 100) {
       throw new ClientError(400, 'Score must be a number between 1 and 100');
     }
     const sql = `
@@ -81,7 +84,10 @@ app.put('/api/grades/:gradeId', async (req, res, next) => {
     if (!Number.isInteger(+gradeId)) {
       throw new ClientError(400, 'gradeId must be a number');
     }
-    if (score < 0 || score > 100 || !Number.isInteger(score)) {
+    if (!Number.isInteger(score)) {
+      throw new ClientError(400, 'score must be an integer');
+    }
+    if (score < 0 || score > 100) {
       throw new ClientError(400, 'score must be a number between 1 and 100');
     }
     const sql = `
